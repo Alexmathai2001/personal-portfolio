@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Mathai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70e3f46eb5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo3.png" class="alex">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#services">Services</a> </li>
+                <li> <a href="#portfolio">Portfolio</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="description">
+            <p><span>B.Tech</span> student</p>
+            <h1>Hi, I am <span> Alex </span> <br>from Jyothi Engineering College.</h1>
+    </div> 
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/aboutusalex.jpg" alt="" srcset="">
+
+            </div>
+            <div class="about-col2">
+                <h1 class="aboutus">About Me</h1>
+                <p>I am currently persuing Computer Science and Engineering degree from Jyothi Engineering College. I am a Tech enthusiast and has actively participated in multiple hackathons.</p>
+                <div class="tabtitles">
+                    <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span></li>
+                        <li>Knowledge in html, CSS, javascript and figma</li>
+                        <li><span>Python</span> <br></li>
+                        <li>Basic knowledge in python</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span> <br> </li>
+                        <li>Jyothi Engineering College, Thrissur.</li>
+                        <li><span>2017-2019</span> <br> </li>
+                        <li>Chinmaya Vidyalaya, Kolazhy</li>
+                        <li><span>Primary Education</span> <br></li>
+                        <li>Chelakkara Central School, Chelakkara</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020 - Till date</span> <br> </li>
+                        <li>Product design associate at TheXtruder</li>
+                    </ul>
+                </div>
+
+             </div>
+        </div>
+    </div>
+</div>
+<!-- --------------services---------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="aboutus">Hobbies</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>I worked for TheXtruder as a product design associate for 2 years, and my main tool for website designing was Figma. I am confident in working on Figma by using maximum tools, flexing, experimenting many designs.
+
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Video Editing</h2>
+                <p>I love to make videos, edit them and publish it in social media platforms.I mainly prefer to use Adobe Premiere pro as the tool for editing.I had done some works for college events as a promotional videos.I mainly look forward my satisfaction as the output rather than the number of likes or reach for that work.
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-dice"></i>
+                <h2>Batminton</h2>
+                <p>
+                    As an avid badminton player, I find joy in the physical activity and social benefits of the sport. Regularly playing badminton not only provides a great cardiovascular workout, but also helps improve hand-eye coordination and mental wellness. Through practice and competition, I continuously work to refine my technique and grow as a player.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="aboutus">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png" alt="">
+                <div class="layer">
+                    <h3>Park Xpert</h3>
+                    <p>It is an automated car parking assistant software which helps the driver to know the available free slots in a parking area and get directed towards the free slot.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png" alt="">
+                <div class="layer">
+                    <h3>AI-Based service hub</h3>
+                    <p>It is a web app which helps people to get a gadget easily repaired with the help of a solution recommender and can directed to the nearest service centre </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>       
+            </div>
+            <div class="work">
+                <img src="images/work3.png" alt="">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>THis is a website which include the updated details of myself which was built on html, css and java script. </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>   
+            </div>
+        </div>
+        <div>
+            <a href="#" class="button">Go To Top</a>
+        </div>
+    </div>
+</div>
+<!-- ----------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="rows">
+            
+            <div class="content-left">
+                <h2 class="aboutus">Contact Me</h2>
+                <p><i class="fa-solid fa-paper-plane"></i>alexmathai07@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9400354724</p>
+                <div class="social-icons">
+                    <a href="https://www.snapchat.com/add/amathai2020?share_id=omiK39OsttE&locale=en-US"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://instagram.com/a1exmathai?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https:/t.me/a1exmathai"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B919400354724&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/alex-mathai?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bpg9Py78GQAOQzsRbezbT%2Bw%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Alex's Resume.pdf" class="button btn" download>Download CV</a>
+            </div>
+            <div class="content-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="button btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © This site is owned by Alex </p>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tablinks");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right='0';
+    }
+    function closemenu(){
+        sidemenu.style.right='-200px';
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx6EKuJ4dl8P0udwni94bw8GYMvPo07A61h58d1mvRGfK1UIJPgcTOgFLyuIoH_lUW3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent succcesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+</body>
+</html>
